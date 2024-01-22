@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Gym App</string>
+    <string name="navigation_drawer_open">Otvori</string>
+    <string name="navigation_drawer_close">Zatvori</string>
+    <string name="login_button_text">Prijava na sustav</string>
+    <string name="password_hint">Unesite lozinku</string>
+    <string name="email_hint">Unesite email adresu</string>
+    <string name="logo_desc">Netflix two\n</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="register_button_text">Registracija</string>
+    <string name="vje_be_guranja">Vježbe guranja</string>
+    <string name="vje_be_povla_enja">Vježbe povlačenja</string>
+    <string name="noge">Noge</string>
+    <string name="zapo_ni_trening">Započni trening</string>
+    <string name="odjava">Odjava</string>
+    <string name="izaberi_drugi_trening">Izaberi drugi trening</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GymActivity">
+
+    <Button
+        android:id="@+id/btnPushExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="@string/vje_be_guranja" />
+
+    <Button
+        android:id="@+id/btnPullExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPushExercises"
+        android:layout_marginTop="15dp"
+        android:text="@string/vje_be_povla_enja" />
+
+    <Button
+        android:id="@+id/btnLegExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPullExercises"
+        android:layout_marginTop="15dp"
+        android:text="@string/noge" />
+
+    <Button
+        android:id="@+id/btnStartTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLegExercises"
+        android:layout_marginTop="36dp"
+        android:text="@string/zapo_ni_trening" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="133dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/btnStartTraining"
+        android:layout_marginTop="20dp"
+        android:text="@string/odjava" />
+</RelativeLayout>
+
